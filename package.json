@@ -1,0 +1,28 @@
+{
+  "name": "hellomarsamit",
+  "version": "1.0.0",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "cluster": "^0.7.7",
+    "should": "^11.2.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "Test package",
+  "main": "Http.js",
+  "devDependencies": {},
+  "keywords": [
+    "test"
+  ],
+  "author": "amit",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acamit/statusBrew.git"
+  },
+  "bugs": {
+    "url": "https://github.com/acamit/statusBrew/issues"
+  },
+  "homepage": "https://github.com/acamit/statusBrew#readme"
+}
