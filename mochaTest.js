@@ -6,6 +6,7 @@ describe('MathFun', function(){
 		//indiviual 
 		it('should double even numbers correctly', function(){
 			fun.evenDoublerSync(2).should.equal(4);
+			console.log("test");
 		});
 		//it.only(It will run only this one test chase. )
 		//it.skip(It will skip only this one test chase. )
