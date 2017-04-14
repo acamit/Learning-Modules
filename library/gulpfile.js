@@ -12,16 +12,16 @@
             options = {
                         bowerJson: require('./bower.json'),
                         directory: './public/lib',
-                        ignorePath:'../../public'
+                         ignorePath:'../../public'
                        },
             optionsI = {
-                 ignorePath:'/public'
+                  ignorePath:'/public'
             },
             injectSrc = gulp.src(['./public/css/*.css',
                                     './public/js/*.js'
                 ], {read:false});
                        
-        return gulp.src('./src/views/*.hbs')
+        return gulp.src('./src/views/*.ejs')
                     .pipe(wiredep(options))
                     .pipe(inject(injectSrc, optionsI))
                     .pipe(gulp.dest('./src/views/'));
